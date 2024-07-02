@@ -29,7 +29,7 @@ Recreating Apple Watch's Utility face <http://www.apple.com/watch/design/> in HT
     var max;
     var temp;
     var tempday;//这个月第一天的星期
-    document.write ("<b>" + "<font color='red'>" + my.getFullYear() + "-" + (my.getMonth()+1) + "</font>" + "</b>");
+    document.write ("<b>" + "<font color='white'>" + my.getFullYear() + "-" + (my.getMonth()+1) + "</font>" + "</b>");
     document.write ("<table border='1' width='273' height='158'>");
     document.write ("<tr>");
     document.write ("<td height='23' width='39'><font color='red'>Sun</font></td>");
@@ -76,9 +76,9 @@ Recreating Apple Watch's Utility face <http://www.apple.com/watch/design/> in HT
     if(theday<=max) {
      document.write ("<a title=" + my.getFullYear() + "-" + (my.getMonth()+1) + "-" +theday + " target='_blank' href=detail.asp?date=" + theday + ">");
      if(theday==my.getDate())
-     document.write ("<font color='green'>[" + theday + "]</font></a>");
+     document.write ("<font color='red'>[" + theday + "]</font></a>");
      else if(j==0)
-     document.write ("<font color='red'>" + theday + "</font></a>");
+     document.write ("<font color='white'>" + theday + "</font></a>");
      else
      document.write (theday + "</a>");
      theday++;
