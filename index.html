@@ -32,13 +32,13 @@ Recreating Apple Watch's Utility face <http://www.apple.com/watch/design/> in HT
     document.write ("<b>" + "<font color='white'>" + my.getFullYear() + "-" + (my.getMonth()+1) + "</font>" + "</b>");
     document.write ("<table border='1' width='273' height='158'>");
     document.write ("<tr>");
-    document.write ("<td height='23' width='39'><font color='red'>Sun</font></td>");
-    document.write ("<td height='23' width='39'><font color='red'>Mon</font></td>");
-    document.write ("<td height='23' width='39'><font color='red'>Tue</font></td>");
-    document.write ("<td height='23' width='39'><font color='red'>Wed</font></td>");
-    document.write ("<td height='23' width='39'><font color='red'>Thu</font></td>");
-    document.write ("<td height='23' width='39'><font color='red'>Fri</font></td>");
-    document.write ("<td height='23' width='39'><font color='red'>Sat</font></td>");
+    document.write ("<td height='23' width='39'><font color='white'>Sun</font></td>");
+    document.write ("<td height='23' width='39'><font color='white'>Mon</font></td>");
+    document.write ("<td height='23' width='39'><font color='white'>Tue</font></td>");
+    document.write ("<td height='23' width='39'><font color='white'>Wed</font></td>");
+    document.write ("<td height='23' width='39'><font color='white'>Thu</font></td>");
+    document.write ("<td height='23' width='39'><font color='white'>Fri</font></td>");
+    document.write ("<td height='23' width='39'><font color='white'>Sat</font></td>");
     document.write ("</tr>");
     temp=my.getDate();
     my.setDate(1);
@@ -76,7 +76,7 @@ Recreating Apple Watch's Utility face <http://www.apple.com/watch/design/> in HT
     if(theday<=max) {
      document.write ("<a title=" + my.getFullYear() + "-" + (my.getMonth()+1) + "-" +theday + " target='_blank' href=detail.asp?date=" + theday + ">");
      if(theday==my.getDate())
-     document.write ("<font color='red'>[" + theday + "]</font></a>");
+     document.write ("<font color='pink'>[" + theday + "]</font></a>");
      else if(j==0)
      document.write ("<font color='white'>" + theday + "</font></a>");
      else
